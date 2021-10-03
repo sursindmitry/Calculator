@@ -9,9 +9,10 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setTitle("Калькулятор");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setBounds(600,300,640,480);
+        frame.setBounds(600,300,400,480);
         CalcPanel panel = new CalcPanel();
         frame.add(panel);
         frame.setVisible(true);
+
     }
 }
